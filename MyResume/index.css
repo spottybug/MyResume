@@ -1,0 +1,216 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	/*max-width: 1100px;*/
+	margin: 0 auto;
+
+}
+
+header{
+	width: 100%;
+	background: #000;
+	display: flex;
+	color: #fff;
+
+}
+
+.header_logo{
+	text-transform: uppercase;
+	color: #ffffff; 
+	font-weight: 800;
+	font-size: 30px;
+	cursor: pointer;
+	margin-top: 56px;
+	margin-left: 12%;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%; 
+	margin: 0 auto;
+}
+main .main_welcome{
+	background: #000;
+	text-align: center;
+	/*padding: 100px 10px 100px 10px;*/
+}
+main .main_welcome p{
+	color: #999999;
+	font-size: 25px;
+}
+main .main_welcome h1{
+	color: #999999;
+	font-size: 44px;
+}
+main .main_welcome h1:after{
+	display: none;
+
+}
+.myresume{
+	color: #fcac45;
+}
+.contacts h1{
+	display: inline-block;
+	border-bottom: 5px solid #fcac45;
+	padding-bottom: 20px;
+	font-size: 35px;
+
+	
+} 
+
+.contacts{
+	font-size: 25px;
+}
+
+.my_photo{
+	padding-top: 10px;
+	
+}
+.flexible-image{
+	width: 100%;
+}
+.main_wrapper{
+	width: 100%;
+	margin:0 auto;
+}
+
+main .wrapper{
+	display: flex;
+	margin-left: 50px;
+	padding: 50px 0px 50px 0;
+	background: #fff;
+}
+
+.wrapper1{
+	margin-left: 20%;
+}
+
+.contacts p{
+	margin:15px;
+} 
+
+.my_skills{
+	text-align: center;
+	display: grid;
+	grid-template-columns:auto auto auto; /*формируются колонки авто по количеству колонок, можно в px задавать*/
+	grid-template-rows: auto auto auto;
+	grid-column-gap: 100px; /*размер интервалов грид-раскладки*/ 
+}
+
+.main_skills h1{
+	text-align: center;
+}
+
+.line{
+	width: 200px;
+	height: 5px;
+	background: #fcac45;
+	position: relative;
+	left: 45%;
+	margin-bottom: 85px;
+} 
+	
+main .wrapper{
+	display: flex;
+	margin-left: 50px;
+	padding: 50px 0px 50px 0;
+	background: #fff;
+	
+}
+
+.portfolio {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+.portfolio h1{
+    text-align: center;
+	color: #000; 
+	font-size: 35px;
+}
+
+.toggles button{
+	border:none;
+	color: #000;
+	cursor: pointer;
+	font-size: 16px;
+	margin: 0 5px;
+	margin-top: 20px 5px;
+	text-align: center;
+	background: #ffcc66;
+	font-size: 23px;
+}
+
+.posts{
+	/*width: 90%;*/
+	display: grid;
+	margin: 50px 50px 50px 50px;
+	grid-template-columns:auto auto;
+
+}
+
+
+footer{
+
+	background: #000;
+	padding: 30px 30px;
+	color: #fff;
+	font-size: 25px;
+
+}
+
+footer h1{
+	font-size: 35px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1100px){
+	.wrapper1 {
+		flex-direction: column; 
+	}
+
+	.main_wrapper{
+		flex-direction: column;
+	}
+
+	.wrapper2 {
+		flex-direction: column; 
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen {
+	
+}
+
+.mw-100{
+	max-width: 100%;
+}
+
+.wrapper{
+	flex-direction: column; /*чтобы при уменьшении экрана контент вставал в колонку*/
+} 
+
+/*.contacts {
+	text-align: center;
+	margin-left: 0;
+}*/
